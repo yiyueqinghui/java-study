@@ -11,10 +11,10 @@ String类型    String 其并不是基本类型,用双引号""表示
 public class HelloWorld {
 	public static void main(String[] args){
 	  //整型
-	  byte b = 1;
-      short s = 200;
-      int i = 300;
-      long l = 400; 
+	  byte b = 1;       //byte  长度是8位,范围是-2^7--2^7-1,即-128~127。
+      hort s = 200;    //short  长度是16位，范围是-2^15--2^15-1,即-32768--32767
+      int i = 300;      //int   长度是32位,范围 -2^31——2^31-1，即-2147483648——2147483647
+      long l = 400;     //long  长度是64位，范围 -2^63——2^63-1，范围很大
       /*如果试图给byte类型的变量赋予超出其范围的值，就会产生编译错误*/
       byte b2 = 200;
 	  
